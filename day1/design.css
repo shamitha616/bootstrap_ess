@@ -1,0 +1,68 @@
+*{
+  background-color: #FF67E7;
+}
+
+/* margins of page */
+.b{
+    margin-top: 75px;
+    margin-bottom: 10px;
+}
+
+.my-container{
+  width: 100%;
+  height: 100%;
+}
+
+/* background colors of all 3 rows */
+.row-1{
+  padding-top: 30px;
+  height: 180px;
+  background-color: #FF67E7;
+}
+
+.row-2{
+  padding-top: 30px;
+  height: 210px;
+  background-color: #FF67E7;
+}
+
+.row-3{
+  height: 180px;
+  background-color: #FF67E7;
+}
+
+/* Blocks of height 150px each in each rows */
+ .block{
+  height: 150px;
+  background-color: #FFF338;
+}
+
+.block1{
+  height: 150px;
+  background-color: #FFF338;
+}
+
+.block2{
+  height: 150px;
+  background-color: #FFF338;
+}
+
+/* font color */
+.colr1{
+  color: black;
+}
+
+.colr2{
+  color: black;
+}
+
+.colr3{
+  color:black;
+}
+
+/* bold heading font change */
+.bold {
+font-family: 'Oswald', sans-serif;
+  background-color: #FFF338;
+
+}
