@@ -1,0 +1,159 @@
+.navigation {
+  height: 80px;
+}
+
+
+.mybanner {
+  height: 610px;
+  background-color: grey;
+  background-image: url(banner.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner_content {
+  height: 610px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+
+.clr {
+  color: white;
+}
+
+.padd {
+  padding-left: 120px;
+  padding-top: 230px;
+}
+
+
+.vrty {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-color: #eae4e9;
+}
+
+.sz {
+font-size: 20px;
+}
+
+
+.row {
+  background-color: #eae4e9;
+}
+
+.card {
+
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px; */
+/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.card:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.contain{
+  padding: 0% !important;
+  margin: 0% !important;
+}
+
+
+
+.pricediv {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #eae4e9;
+}
+
+.pricehead {
+  text-align: center !important;
+}
+
+.pricehead1 {
+  font-size: 20px;
+  text-align: center !important;
+}
+
+.accordion-item {
+  background-color: #eae4e9 !important;
+}
+
+.butnprice {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+
+.cntct {
+  background-color: #eae4e9;
+}
+
+.cntcthead {
+  text-align: center;
+}
+
+
+
+.cntctpara {
+  font-size: 20px;
+  text-align: center;
+}
+
+.cntctfrm {
+  background-color: #eae4e9;
+  padding-left: 250px !important;
+  padding-right: 250px !important;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+
+
+
+/* css responsiveness for mobile */
+
+
+@media (max-width:500px) {
+
+  .padd{
+    padding-left: 40px;
+    padding-top: 300px;
+  }
+
+
+
+.vrty {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: #eae4e9;
+}
+
+
+.col {
+  padding: 10px;
+
+}
+
+.cntctfrm {
+padding: 10px !important;
+}
+
+
+
+}
